@@ -1,2 +1,2 @@
-# TWP
+# Terraform_AWS_Project1
 Terraform_AWS_Project 1
