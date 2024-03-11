@@ -1,0 +1,8 @@
+ami       = "ami-006dcf34c09e50022"
+instance_type   = "t2.micro"
+public_subnet = "10.0.1.0/24"
+private_subnet = "10.0.2.0/24"
+bucket = "khames"
+VPC_IP = "10.0.0.0/16"
+region = "us-east-1"
+Tname = "dyKhames"
