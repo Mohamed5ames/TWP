@@ -3,7 +3,7 @@ module "ec2" {
   ami= var.ami
   instance_type= var.instance_type
   subnet_id = module.network.public
- 
+  depends_on = [ module.db ]
 }
 
 module "network" {
