@@ -4,3 +4,4 @@ resource "aws_instance" "my-ec2"{
     subnet_id = var.subnet_id
  //   depends_on = [aws_dynamodb_table.table]
     }
+    

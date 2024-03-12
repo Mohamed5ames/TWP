@@ -43,3 +43,6 @@ variable "Tname" {
   description = "value"
   type = string
 }
+variable "domainname" {
+  
+}

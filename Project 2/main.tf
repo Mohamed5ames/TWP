@@ -11,6 +11,7 @@ module "network" {
   private_subnet_cidr_blocks = var.private_subnet
   vpc_ip = var.VPC_IP
   public_subnet_cidr_blocks = var.public_subnet
+  domain_name = var.domainname
 }
 
 module "s3" {

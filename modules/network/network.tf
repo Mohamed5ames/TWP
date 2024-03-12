@@ -63,3 +63,7 @@ resource "aws_route_table_association" "public" {
     route_table_id = aws_route_table.RT.id  // Route Table
 }
 
+#Create route53
+resource "aws_route53_zone" "example_zone" {
+  name = var.domain_name
+}
